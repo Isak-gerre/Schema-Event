@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #eee;
+}
+
+body {
+  font-family: 'ClashDisplay-Medium';
+  background-color: #1F1F1F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-top: 50px;
+}
+
+svg {
+  width: 90%;
+  margin-top: 70px;
+}
+
+#header2 {
+  margin-top: 150px;
+}
+
+.timestamp {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.activity {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.desc {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.item {
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item > p,
+.item > h2 {
+  margin-top: 10px;
+}
+
+.column {
+  min-width: 1px;
+}
+
+#column2 > svg {
+  margin-top: 20px;
+}
+
+#first {
+  margin-top: 120px;
+}
+/*# sourceMappingURL=style.css.map */
